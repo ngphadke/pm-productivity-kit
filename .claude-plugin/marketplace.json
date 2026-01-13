@@ -1,0 +1,11 @@
+{
+  "name": "ngphadke-productivity",
+  "description": "Productivity plugins by Ninad Phadke",
+  "plugins": [
+    {
+      "name": "pm-productivity-kit",
+      "description": "Productivity skills for product managers: diagrams, flowcharts, and more",
+      "source": "."
+    }
+  ]
+}
