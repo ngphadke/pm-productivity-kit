@@ -11,7 +11,7 @@
     {
       "name": "pm-productivity-kit",
       "description": "Productivity skills for product managers: diagrams, flowcharts, and more",
-      "source": "..",
+      "source": "./",
       "category": "productivity"
     }
   ]
