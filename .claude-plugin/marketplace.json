@@ -1,11 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ngphadke-productivity",
+  "version": "1.0.0",
   "description": "Productivity plugins by Ninad Phadke",
+  "owner": {
+    "name": "Ninad Phadke",
+    "email": "ngphadke@github.com"
+  },
   "plugins": [
     {
       "name": "pm-productivity-kit",
       "description": "Productivity skills for product managers: diagrams, flowcharts, and more",
-      "source": "."
+      "source": "..",
+      "category": "productivity"
     }
   ]
 }
