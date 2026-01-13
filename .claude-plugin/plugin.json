@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Productivity skills for product managers and makers: create diagrams, roadmaps, PRDs, and more",
   "homepage": "https://github.com/ngphadke/pm-productivity-kit",
-  "author": "Ninad Phadke <https://github.com/ngphadke>",
+  "author": {
+    "name": "Ninad Phadke",
+    "url": "https://github.com/ngphadke"
+  },
   "license": "MIT",
   "keywords": [
     "diagrams",
@@ -11,9 +14,6 @@
     "flowcharts",
     "productivity",
     "product-management"
-  ],
-  "skills": [
-    "skills/excalidraw"
   ],
   "hooks": "./hooks/hooks.json"
 }
