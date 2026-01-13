@@ -5,7 +5,15 @@
   "homepage": "https://github.com/ngphadke/pm-productivity-kit",
   "author": "Ninad Phadke <https://github.com/ngphadke>",
   "license": "MIT",
+  "keywords": [
+    "diagrams",
+    "excalidraw",
+    "flowcharts",
+    "productivity",
+    "product-management"
+  ],
   "skills": [
     "skills/excalidraw"
-  ]
+  ],
+  "hooks": "./hooks/hooks.json"
 }

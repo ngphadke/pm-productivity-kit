@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(echo:*)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm info:*)",
+      "WebFetch(domain:kroki.io)",
+      "Bash(npm search:*)",
+      "WebFetch(domain:docs.kroki.io)",
+      "Bash(excalidraw-cli create:*)",
+      "Bash(bash:*)",
+      "Bash(ls:*)",
+      "mcp__plugin_context7_context7__query-docs"
     ]
   }
 }

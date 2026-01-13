@@ -1,0 +1,17 @@
+{
+  "description": "Hooks for pm-productivity-kit plugin",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/check-dependencies.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
